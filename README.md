@@ -55,7 +55,7 @@ Step2:
   
 	$ls
   
-  $sudo rm index.nginx-debian.html
+  	$sudo rm index.nginx-debian.html
   
 	$sudo nano index.nginx-debian.html 
   
@@ -63,7 +63,7 @@ Step2:
   
 	$clear
   
-	-It is working fine in the ip address 13.233.22.38 also the web page is visible.
+  -It is working fine in the ip address 13.233.22.38 also the web page is visible.
   
   
   
@@ -71,15 +71,15 @@ Step2:
 Step3:
 
 
-⦁	Launch a new EC2 instance and repeat step 2
+⦁Launch a new EC2 instance and repeat step 2
 
-	-When it reached to
+-When it reached to
   
-$sudo nano index.nginx-debian.html
+	$sudo nano index.nginx-debian.html
   
-	-(Rewrite the code given in task index2.html)
+-(Rewrite the code given in task index2.html)
   
-	-It is working fine in the ip address 3.110.31.20 also the web page is visible.
+-It is working fine in the ip address 3.110.31.20 also the web page is visible.
   
   
 
@@ -101,14 +101,16 @@ Step4:
 
 
 
+
+
 Load balancer endpoint result
 
-!!  Two targets successfully registerd into spark group
+	!!  Two targets successfully registerd into spark group
 
-Total targets = 2
+	Total targets = 2
 
-Healthy = 2
+	Healthy = 2
 
-Unhealthy = 0 
+	Unhealthy = 0 
 
  
